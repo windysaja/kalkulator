@@ -1,0 +1,68 @@
+<html>
+<head>
+      <title>KALKULATOR SEDERHANA</title>
+	  <SCRIPT LANGUAGE="javaScript">
+	         function tambah()
+			 {
+			 a=eval(form.a.value)
+			 b=eval(form.b.value)
+			 c=a+b
+			 form.hasil.value=c
+			 }
+			 
+			 function kurang()
+			 {
+			 a=eval(form.a.value)
+			 b=eval(form.b.value)
+			 c=a-b
+			 form.hasil.value=c
+			 }
+			 
+			 function kali()
+			 {
+			 a=eval(form.a.value)
+			 b=eval(form.b.value)
+			 c=a*b
+			 form.hasil.value=c
+	         }
+			 
+			 function bagi()
+			 {
+			 a=eval(form.a.value)
+			 b=eval(form.b.value)
+			 c=a/b
+			 form.hasil.value=c
+			 }
+			 
+	  </SCRIPT>
+	  <style type="text/css">
+	  </style>
+</head>
+<body>
+       <h1 align="center">program kalkulator</br>UJI KOMPETENSI KEAHLIAN</h1>
+	   <FORM name="form">
+	         <h2 align="center"><font color="black">KELAS 12 RPL</font></h2></td>
+			 <table border="1"align="center"
+			 <tr>
+			 
+			 <td align="center" width="234" height="170" valign="top" bgcolor="yellow"><p>
+			     Angka 1
+				 <input type="text"name="a">
+				 <br>
+				 Angka 2
+				 <input type="text"name="b">
+				 <br>
+				 <br>
+				 <input type="button"value="+"onClick="tambah()">
+				 <input type="button"value="-"onClick="kurang()">
+				 <input type="button"value="x"onClick="kali()">
+				 <input type="button"value="/"onClick="bagi()">
+				 <input name="Hapus"type="reset"id="Hapus" value="Hapus">
+				 <br>
+				 <b>hasil</b><br><input type"text" name="hasil">
+				 </td>
+			</tr>
+		 </table>
+  </FORM>
+</body>
+</html>
